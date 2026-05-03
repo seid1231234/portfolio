@@ -1,0 +1,317 @@
+
+       /* #About {
+  transition: all 0.5s ease;
+  overflow: hidden;
+  max-height: 300px; 
+} */
+.bbbb{
+    color:red;
+}
+#About {
+  transition: all 0.5s ease;
+  overflow: visible; 
+}
+
+.about {
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.about img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+    .about {
+        height: auto !important;
+        padding-bottom: 40px;
+    }
+}
+   body {
+        padding-top: 100px;  
+         background: #f4f6fa;
+         transition: 0.3s;
+        }
+ html {
+    scroll-padding-top: 120px; 
+}
+.custom-toggler {
+    border: none !important;
+    padding: 8px 10px;
+    background: white !important;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.custom-toggler:hover {
+    background: #e0e0e0 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    filter: none !important;
+}
+        body.dark {
+            background: #1b1b1b;
+            color: white;
+        }
+        body.dark .navbar {
+            background: #111 !important;
+        }
+        body.dark .project-card,
+        body.dark .contact-box,
+        body.dark .skill-box {
+            background: #222 !important;
+            color: white;
+        }
+        .navbar {
+            background: #007bff !important;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .skill-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+        .progress {
+            height: 8px;
+            border-radius: 5px;
+        }
+        #backTop {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: #007bff;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            font-size: 20px;
+            z-index: 999;
+        }
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        @media (max-width: 991px) {
+    .navbar-collapse {
+        margin-bottom: 20px;
+    }
+}
+.skill-box {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.worktype{
+color:rgb(45, 6, 172);
+font-size: 30px;
+font-weight: bold;
+letter-spacing:3px; 
+font-family: arial,sans-serif;
+}
+.aboutwork{
+ color:rgb(16, 6, 67);
+ font-weight: bold;
+ font-family: sans-serif;
+ line-height:20px ;
+ font-size: 20px; 
+}
+#typedText{
+    color:rgb(241, 110, 17);
+    font-weight:bold ;
+
+}
+.myskills{
+  color:rgb(41, 10, 243) ;
+  font-weight:bold ; 
+  font-size:30px;
+font-family: Arial, Helvetica, sans-serif
+
+}
+.bordermyskill{
+box-shadow: 0px 0px 0px 0px;
+padding:20px;
+background-color: #f5f0f0;
+}
+.projects{
+background-color: #f5f0f0;
+   padding:25px ;
+}
+.borderadd{
+    background-color: rgba(253, 252, 250, 0.932);
+    border-radius: 20px;
+}
+
+.project-card {
+    transition: height 0.3s ease, padding 0.3s ease;
+    overflow: hidden;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+/* .about{
+height: 600px;
+
+} */
+.background{
+background-color: rgb(252, 248, 248);
+border-radius: 10px;
+padding:20px;
+
+}
+.certificate{
+  color: #86aaf2;
+  font-family:Arial, Helvetica, sans-serif ;  
+  font-size: 24px;
+  font-weight:bold ;
+}
+.dgree{
+  color: rgb(3, 110, 74); 
+  font-family:sans-serif ,arial;
+  font-weight: bold;
+  font-size: 20px;
+}
+.education{
+    letter-spacing: 4px;
+    font-family: arial,sans-serif;
+    font-weight:bold ;
+    font-size:26px;
+    line-height: 20px;
+}
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: left !important;
+        align-items: flex-start !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-start !important;
+    }
+}
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        background: white !important;
+        width: 220px !important;       
+        padding: 15px;
+        border-radius: 8px;
+        position: absolute;
+        top: 60px;                    
+        left: 10px;                    
+        box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    }
+    .navbar-nav {
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+    .navbar-nav .nav-link {
+        color: #000 !important;
+        font-weight: 600;
+    }
+}
+#contact p {
+    margin: 0;
+}
+#contact i {
+    font-size: 1.2rem;
+}
+.backgroundinfo{
+   background-color: rgb(150, 237, 136);
+   border-radius: 20px;
+   color:#fdb707;
+}
+.phone{
+    font-size: 20px;
+    color:black;
+}
+.email{
+    color:black;
+    font-size:20px;
+}
+.linkedin{
+    color:black;
+    font-size: 20px;
+}
+.project-card a p{
+    text-decoration: none;
+}
+.about img {
+    max-width: 260px; 
+    width: 100%;     
+    height: auto;    
+}
+.project-card a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.project-card a p {
+    text-decoration: none; /* remove underline */
+    color: black; /* default text color */
+    transition: color 0.3s; /* smooth transition */
+}
+
+.project-card a:hover p {
+    color: blue; /* color on hover */
+}
+
+.about-img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;         /* Ensures perfect circle */
+    border-radius: 50%;        /* Makes it circular */
+    border: 5px solid #ffffff; /* White border */
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional hover effect */
+.about-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.3);
+}
+
+
+/* Prevent sections from overlapping */
+section {
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure there is enough space under the Education section */
+#education {
+    margin-bottom: 60px !important;
+}
+
+/* Ensure Contact section has breathing space */
+#contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Fix overflowing background issues */
+.background,
+.backgroundinfo {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Fix mobile stacking issues */
+@media (max-width: 576px) {
+    #education {
+        margin-bottom: 80px !important;
+    }
+
+    #contact {
+        padding-top: 50px;
+    }
+}
+

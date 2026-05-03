@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+<!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS (Scroll Animations) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Typing Effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<style></style>
+<body>
+
+<div id="backTop">↑</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+
+        <button class="btn btn-light me-2" id="toggleDark">🌙</button>
+
+       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#About">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#skills">SKILLS</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#projects">PROJECTS</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#education">EDUCATION</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ABOUT -->
+<section id="About" class="container mt-5 about mb-6 py-4">
+    <div class="row align-items-center">
+
+        <div class="col-md-6 mb-3" data-aos="fade-right">
+            <h2><span id="typedText"></span></h2>
+            <h4 class="worktype">Frontend Web Developer</h4>
+            <p class="aboutwork">
+                I build beautiful and responsive web applications using clean code and modern design principles.
+            </p>
+        </div>
+
+        <div class="col-md-6 text-center" data-aos="fade-left">
+            <img src="seid1.jpg" alt="My Photo" width="260" class="img-fluid rounded-circle about-img">
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="container mt-5 bordermyskill">
+    <h3 class="section-title text-center mb-5  myskills" >My Skills</h3>
+
+    <div class="row g-4">
+
+        <!-- Skill box -->
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box ">HTML
+                <img src="html.jpg" alt="html" width="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-primary" style="width: 0;" data-width="95%"></div></div>
+        </div>
+
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box">CSS
+                <img src="css3.png" alt="css" width="200" height="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-success" style="width: 0;" data-width="90%"></div></div>
+        </div>
+
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box">JavaScript
+                <img src="JavaScript-Symbol.png" alt="javascript" width="200" height="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-warning" style="width: 0;" data-width="80%"></div></div>
+        </div>
+
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box">Bootstrap
+                <img src="bootstrap.jpg" alt="bootstrap" width="200" height="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-info" style="width: 0;" data-width="85%"></div></div>
+        </div>
+    
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box">jquery
+                <img src="jquery.jpg" alt="jquery" width="200" height="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-info" style="width: 0;" data-width="85%"></div></div>
+        </div>
+
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box">c++
+                <img src="c++.jpg" alt="c++" width="200" height="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-info" style="width: 0;" data-width="85%"></div></div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="skill-box">java
+                <img src="java.jpg" alt="java" width="200" height="200">
+            </div>
+            <div class="progress mt-2"><div class="progress-bar bg-info" style="width: 0;" data-width="85%"></div></div>
+        </div>
+
+
+    </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects" class="container mt-5 projects">
+    <h3 class="section-title text-center mb-5 fs-1">Projects</h3>
+<div class="row g-4">
+
+    <div class="col-md-4 text-center borderadd px-3 mb-4 mr-5" data-aos="flip-left">
+        <div class="project-card">
+            <h5 class="portifolio">Portfolio Website</h5>
+            <p>A beautiful personal portfolio website.</p>
+            <a href="index.html" target="_blank">
+     <img src="seidportifolio.png" alt="portifolio" width="200" height="200">
+     <p>portifolio</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-4 text-center borderadd px-3 mb-4 mr-6" data-aos="flip-left">
+        <div class="project-card">
+            <h5>Todo App</h5>
+            <p>A JavaScript-powered task app.</p>
+            <a href="todolist.html" target="_blank">
+                            
+             <img src="todolist.jpg" alt="todolist" width="200" height="200">
+         <p>todolist app</p>
+</a>
+ </div>
+    </div>
+
+    <div class="col-md-4 text-center borderadd px-3 mb-4 mr-6" data-aos="flip-left">
+        <div class="project-card">
+            <h5>Landing Page</h5>
+            <p>A modern responsive landing page it is not finished .</p>
+            <a href="landing.html" target="_blank"><img src="landscape.jpg" alt="landing page" width="200" height="200">
+                <p>my MyLandingPage</p>
+</a>
+        </div>
+        </div>
+        <div class="col-md-4 text-center borderadd px-3 mb-4 ml-5" data-aos="flip-left">
+        <div class="project-card">
+            <h5>airlinereservation system</h5>
+            <p>modern online book.</p>
+            <img src="airlinereservation.png" width="200">
+        </div>
+    </div>
+
+</div>
+</section>
+<section id="education" class="container mt-5 mb-6 ">
+    <h3 class="section-title text-center mb-3 text-primary education">Education</h3>
+
+    <div class="project-card" data-aos="fade-up">
+        <h5 class="dgree">Bachelor's Degree in Computer Science</h5>
+        <p>
+            I am a dedicated Computer Science student at Dire Dawa University, 
+            currently in my third year of study. Throughout my academic journey, 
+            I have built a strong foundation in programming, problem-solving, 
+            software development, and modern web technologies.
+        </p>
+
+        <hr>
+
+        <h5 class="certificate">Web Development Certificate</h5>
+        <p>
+            Successfully completed professional training focused on HTML, CSS, 
+            JavaScript, Bootstrap,and responsive web design — strengthening 
+            both my frontend development skills and real-world project experience.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container mt-5 align-items-center justify-content-center background">
+    <h3 class="section-title text-center mb-3 text-info">Contact Me</h3>
+<div class="row  text-white py-4 mb-5 text-center rounded backgroundinfo">
+
+    <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <p class="fw-bold mb-1 ">Phone</p>
+        <p class="phone mb-0">
+            <i class="fa-solid fa-phone me-2"></i>
+            <span class="phone">0943583323</span>
+        </p>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3 mb-md-0">
+        <p class="fw-bold mb-1">Email</p>
+        <p class="email mb-0">
+            <i class="fa-solid fa-message me-2"></i>
+            <span class="email">seidkassa@gmail.com</span>
+        </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+        <p class="fw-bold mb-1">LinkedIn</p>
+        <p class="linkedin mb-0">
+            <i class="fa-brands fa-linkedin me-2"></i>
+            <span class="linkedin">https://www.linkedin.com/in/seid kassa</span>
+        </p>
+    </div>
+
+</div>
+
+
+
+    <div class="contact-box" data-aos="fade-up">
+        <p ><strong>Email:</strong> your@email.com</p>
+        <p><strong>Phone:</strong> +251 9xx xxx xxx</p>
+        <p><strong>Location:</strong>Dire Dawa, Ethiopia</p>
+        <hr>
+        <form>
+            <input type="text" class="form-control mb-2" placeholder="Your Name" id="nameinput">
+            <input type="email" class="form-control mb-2" placeholder="Your Email" id="email">
+            
+            
+            <textarea class="form-control mb-2" rows="3" placeholder="Message" id="message"></textarea>
+
+            <p class="text-center" id="mesageerror"></p>
+            <button class="btn btn-primary w-100" id="touchBtn">Send</button>
+        </form>
+        
+    </div>
+</section>
+<!-- FOOTER -->
+<footer style="background:#007bff; color:white; padding:30px 20px; text-align:center;">
+   
+    <div class="d-flex justify-content-center flex-wrap mb-3" style="gap:20px;">
+
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/seid kassa" target="_blank" class="text-white" style="font-size:24px;">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <div style="font-size:12px; margin-top:5px;">LinkedIn</div>
+        </div>
+
+        <div class="text-center">
+            <a href="https://t.me/Sotryokman1" target="_blank" class="text-white" style="font-size:24px;">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <div style="font-size:12px; margin-top:5px;">Telegram</div>
+        </div>
+        <div class="text-center">
+            <a href="mailto:your@email.com" class="text-white" style="font-size:24px;">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <div style="font-size:12px; margin-top:5px;">Email</div>
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <div style="font-size:14px; margin-top:10px;">© 2025 Seid Kassa | All Rights Reserved</div>
+</footer>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+ <script src="script.js"></script>
+</body>
+</html>
