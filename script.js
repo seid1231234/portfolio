@@ -1,50 +1,22 @@
 $(document).ready(function () {
- $('#touchBtn').click(function(e) {
-        e.preventDefault(); // Prevent form from submitting
-
-        var messageValue = $('#message').val().trim();
-
-        if (messageValue === "") {
-            $('#mesageerror').text("Please enter a message").css("color", "red");
-        } else {
-            $('#mesageerror').text(""); // Remove the message if user typed something
-            alert("Message sent: " + messageValue); // Optional: show the message
-        }
-    });
-
     // Optional: remove error as soon as user starts typing
     $('#message').on('input', function() {
         $('#mesageerror').text("");
     });
 
+    // Get in Touch button animation
+    $("#mesageerror").text("enter message");
 
+    // Hover effect on buttons
+    $("button").hover(
+        function () {
+            $(this).css("transform", "scale(1.05)");
+        },
+        function () {
+            $(this).css("transform", "scale(1)");
+        }
+    );
 
-
-
-  // Get in Touch button animation
- $("#mesageerror").text("enter message");
-
-  $("#touchBtn").click(function () {
-    let message=$("#message").val();
-    let name=$("#nameinput").val();
-
-    if(message==""){
-
-    }
-    else{
-         alert("Thanks for contacting me!    "  +name +"");
-    }
-   $("#nameinput").val("");
-    $("#email").val("");
-    $("#message").val("");
-
-    // Remove error text
-    $('#mesageerror').text("");
-
- 
-  });
-
-  // Hover effect on buttons
   $("button").hover(
     function () {
       $(this).css("transform", "scale(1.05)");
